@@ -1,0 +1,8 @@
+name: 'Robs trusted action'
+description: 'You should trust me 🙃'
+runs:
+  using: "composite"
+  steps:
+    - name: "Say Hello"
+      run: echo "Hello world!"
+      shell: bash
