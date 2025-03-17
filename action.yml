@@ -4,5 +4,5 @@ runs:
   using: "composite"
   steps:
     - name: "Say Hello"
-      run: echo "Hello world!"
+      run: echo "Im doing something I shouldn't"
       shell: bash
